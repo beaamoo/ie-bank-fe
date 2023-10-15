@@ -7,6 +7,7 @@
           <p class="catch-phrase">Banking for a Better Tomorrow</p>
           <div class="button-container">
             <button class="btn btn-primary btn-lg" @click="$router.push('/accounts')">Go to Accounts</button>
+            <button class="btn btn-secondary btn-lg" @click="$router.push('/skull')">Go to Skull Page</button>
           </div>
         </div>
       </div>
@@ -34,7 +35,7 @@
   font-weight: 600;
   animation: titleAnimation 3s ease-in-out 1.5s forwards;
   transform: translateY(-100%);
-  margin-bottom: 2rem; /* Add margin at the bottom of the title */
+  margin-bottom: 2rem;
 }
 
 .catch-phrase {
@@ -43,7 +44,7 @@
   font-weight: 400;
   animation: catchPhraseAnimation 3s ease-in-out 1.5s forwards;
   opacity: 0;
-  margin-top: 0.5rem; /* Add margin at the top of the catch phrase to move it lower */
+  margin-top: 0.5rem;
 }
 
 @keyframes titleAnimation {
@@ -77,4 +78,5 @@
 .btn {
   display: block;
 }
+
 </style>
