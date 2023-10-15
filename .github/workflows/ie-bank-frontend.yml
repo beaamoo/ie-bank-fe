@@ -8,8 +8,8 @@ on:
   workflow_dispatch:
 
 env:
-  FRONTEND_WEBAPP_DEV: bmossberg-fe-dev
-  FRONTEND_WEBAPP_UAT: bmossberg-fe-uat
+  FRONTEND_WEBAPP_DEV: beaamoo-fe-dev
+  FRONTEND_WEBAPP_UAT: beaamoo-fe-uat
 
 jobs:
   build:
